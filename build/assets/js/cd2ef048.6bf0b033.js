@@ -1,0 +1,224 @@
+"use strict";
+(self.webpackChunkmy_website = self.webpackChunkmy_website || []).push([
+	[759],
+	{
+		183: (e, o, t) => {
+			t.d(o, { A: () => r });
+			t(6540);
+			const i = { interactiveButton: "interactiveButton_m7jC" };
+			var n = t(4848);
+			function r(e) {
+				let { url: o, children: t } = e;
+				return (0, n.jsx)("a", {
+					href: o,
+					target: "_blank",
+					rel: "noopener noreferrer",
+					children: (0, n.jsx)("button", {
+						className: i.interactiveButton,
+						role: "button",
+						children: t,
+					}),
+				});
+			}
+		},
+		8453: (e, o, t) => {
+			t.d(o, { R: () => s, x: () => l });
+			var i = t(6540);
+			const n = {},
+				r = i.createContext(n);
+			function s(e) {
+				const o = i.useContext(r);
+				return i.useMemo(
+					function () {
+						return "function" == typeof e ? e(o) : { ...o, ...e };
+					},
+					[o, e]
+				);
+			}
+			function l(e) {
+				let o;
+				return (
+					(o = e.disableParentContext
+						? "function" == typeof e.components
+							? e.components(n)
+							: e.components || n
+						: s(e.components)),
+					i.createElement(r.Provider, { value: o }, e.children)
+				);
+			}
+		},
+		8541: (e, o, t) => {
+			t.d(o, { A: () => i });
+			const i =
+				t.p +
+				"assets/images/join-csharp-method-3c8591b0ccac4bb69686a5f45a7ffc48.png";
+		},
+		8736: (e, o, t) => {
+			t.r(o),
+				t.d(o, {
+					assets: () => c,
+					contentTitle: () => d,
+					default: () => m,
+					frontMatter: () => l,
+					metadata: () => i,
+					toc: () => a,
+				});
+			const i = JSON.parse(
+				'{"id":"technical-writing/method-terminology","title":"Method terminology","description":"Codecademy  |  December 2024","source":"@site/docs/technical-writing/method-terminology.mdx","sourceDirName":"technical-writing","slug":"/method-terminology","permalink":"/portfolio/projects/method-terminology","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":5,"frontMatter":{"id":"method-terminology","title":"Method terminology","description":"Codecademy  |  December 2024","slug":"/method-terminology","sidebar_label":"Method terminology","sidebar_position":5},"sidebar":"tutorialSidebar","previous":{"title":"Concept explainer","permalink":"/portfolio/projects/concept-explainer"},"next":{"title":"UX writing","permalink":"/portfolio/projects/ux-writing"}}'
+			);
+			var n = t(4848),
+				r = t(8453),
+				s = t(183);
+			const l = {
+					id: "method-terminology",
+					title: "Method terminology",
+					description: "Codecademy  |  December 2024",
+					slug: "/method-terminology",
+					sidebar_label: "Method terminology",
+					sidebar_position: 5,
+				},
+				d = "Method terminology",
+				c = {},
+				a = [
+					{ value: "Project overview", id: "project-overview", level: 2 },
+					{ value: "Scope of work", id: "scope-of-work", level: 2 },
+					{ value: "Outcome", id: "outcome", level: 2 },
+				];
+			function h(e) {
+				const o = {
+					code: "code",
+					em: "em",
+					h1: "h1",
+					h2: "h2",
+					header: "header",
+					img: "img",
+					li: "li",
+					p: "p",
+					ul: "ul",
+					...(0, r.R)(),
+					...e.components,
+				};
+				return (0, n.jsxs)(n.Fragment, {
+					children: [
+						(0, n.jsx)(o.header, {
+							children: (0, n.jsx)(o.h1, {
+								id: "method-terminology",
+								children: "Method terminology",
+							}),
+						}),
+						"\n",
+						(0, n.jsx)(o.p, { children: "Codecademy | December 2024" }),
+						"\n",
+						(0, n.jsxs)(o.p, {
+							children: [
+								(0, n.jsx)(o.img, {
+									src: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white",
+									alt: "Markdown",
+								}),
+								" ",
+								(0, n.jsx)(o.img, {
+									src: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white",
+									alt: "VSCode",
+								}),
+								" ",
+								(0, n.jsx)(o.img, {
+									src: "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
+									alt: "GitHub",
+								}),
+							],
+						}),
+						"\n",
+						(0, n.jsx)(o.h2, {
+							id: "project-overview",
+							children: "Project overview",
+						}),
+						"\n",
+						(0, n.jsxs)(o.p, {
+							children: [
+								"I contributed to Codecademy's open-source documentation by creating a terminology entry for the ",
+								(0, n.jsx)(o.code, { children: ".Join()" }),
+								" method in C#.",
+							],
+						}),
+						"\n",
+						(0, n.jsx)(s.A, {
+							url: "https://www.codecademy.com/resources/docs/c-sharp/strings/join",
+							children: (0, n.jsx)(o.p, { children: "View Project \u2192" }),
+						}),
+						"\n",
+						(0, n.jsx)(o.p, {
+							children: (0, n.jsx)(o.em, {
+								children: "Note: All content was written by me.",
+							}),
+						}),
+						"\n",
+						(0, n.jsx)(o.h2, {
+							id: "scope-of-work",
+							children: "Scope of work",
+						}),
+						"\n",
+						(0, n.jsxs)(o.ul, {
+							children: [
+								"\n",
+								(0, n.jsxs)(o.li, {
+									children: [
+										"Wrote a clear, concise description of the ",
+										(0, n.jsx)(o.code, { children: ".Join()" }),
+										" method's purpose and syntax.",
+									],
+								}),
+								"\n",
+								(0, n.jsx)(o.li, {
+									children:
+										"Included practical code examples showing how to join string arrays using different delimiters.",
+								}),
+								"\n",
+								(0, n.jsx)(o.li, {
+									children:
+										"Organized content to follow Codecademy's guidelines for SEO, style, and structure.",
+								}),
+								"\n",
+							],
+						}),
+						"\n",
+						(0, n.jsx)(o.h2, { id: "outcome", children: "Outcome" }),
+						"\n",
+						(0, n.jsxs)(o.ul, {
+							children: [
+								"\n",
+								(0, n.jsxs)(o.li, {
+									children: [
+										"Enabled readers to quickly understand the ",
+										(0, n.jsx)(o.code, { children: ".Join()" }),
+										" method by providing a straightforward definition and self-explanatory examples.",
+									],
+								}),
+								"\n",
+								(0, n.jsx)(o.li, {
+									children:
+										"Contributed to Codecademy Docs' mission to provide reliable, beginner-friendly programming references.",
+								}),
+								"\n",
+							],
+						}),
+						"\n",
+						(0, n.jsx)(o.p, {
+							children: (0, n.jsx)(o.img, {
+								alt: "screenshot of C# .Join() method terminology page",
+								src: t(8541).A + "",
+								width: "2460",
+								height: "1770",
+							}),
+						}),
+					],
+				});
+			}
+			function m(e = {}) {
+				const { wrapper: o } = { ...(0, r.R)(), ...e.components };
+				return o
+					? (0, n.jsx)(o, { ...e, children: (0, n.jsx)(h, { ...e }) })
+					: h(e);
+			}
+		},
+	},
+]);
