@@ -1,0 +1,215 @@
+"use strict";
+(self.webpackChunkmy_website = self.webpackChunkmy_website || []).push([
+	[75],
+	{
+		183: (e, t, n) => {
+			n.d(t, { A: () => r });
+			n(6540);
+			const o = { interactiveButton: "interactiveButton_m7jC" };
+			var i = n(4848);
+			function r(e) {
+				let { url: t, children: n } = e;
+				return (0, i.jsx)("a", {
+					href: t,
+					target: "_blank",
+					rel: "noopener noreferrer",
+					children: (0, i.jsx)("button", {
+						className: o.interactiveButton,
+						role: "button",
+						children: n,
+					}),
+				});
+			}
+		},
+		3859: (e, t, n) => {
+			n.d(t, { A: () => o });
+			const o =
+				n.p +
+				"assets/images/retrieve-a-list-of-channels-0e64e891bd7556647566f9f91f0899e1.png";
+		},
+		5994: (e, t, n) => {
+			n.r(t),
+				n.d(t, {
+					assets: () => c,
+					contentTitle: () => a,
+					default: () => h,
+					frontMatter: () => d,
+					metadata: () => o,
+					toc: () => l,
+				});
+			const o = JSON.parse(
+				'{"id":"technical-writing/sdk-documentation","title":"SDK documentation","description":"Sendbird  |  June 2022","source":"@site/docs/technical-writing/sdk-documentation.mdx","sourceDirName":"technical-writing","slug":"/sdk-documentation","permalink":"/portfolio/projects/sdk-documentation","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":2,"frontMatter":{"id":"sdk-documentation","title":"SDK documentation","description":"Sendbird  |  June 2022","slug":"/sdk-documentation","sidebar_label":"SDK documentation","sidebar_position":2},"sidebar":"tutorialSidebar","previous":{"title":"API reference","permalink":"/portfolio/projects/api-reference"},"next":{"title":"User guide","permalink":"/portfolio/projects/user-guide"}}'
+			);
+			var i = n(4848),
+				r = n(8453),
+				s = n(183);
+			const d = {
+					id: "sdk-documentation",
+					title: "SDK documentation",
+					description: "Sendbird  |  June 2022",
+					slug: "/sdk-documentation",
+					sidebar_label: "SDK documentation",
+					sidebar_position: 2,
+				},
+				a = "SDK documentation",
+				c = {},
+				l = [
+					{ value: "Project overview", id: "project-overview", level: 2 },
+					{ value: "Scope of work", id: "scope-of-work", level: 2 },
+					{ value: "Outcome", id: "outcome", level: 2 },
+				];
+			function u(e) {
+				const t = {
+					em: "em",
+					h1: "h1",
+					h2: "h2",
+					header: "header",
+					img: "img",
+					li: "li",
+					p: "p",
+					ul: "ul",
+					...(0, r.R)(),
+					...e.components,
+				};
+				return (0, i.jsxs)(i.Fragment, {
+					children: [
+						(0, i.jsx)(t.header, {
+							children: (0, i.jsx)(t.h1, {
+								id: "sdk-documentation",
+								children: "SDK documentation",
+							}),
+						}),
+						"\n",
+						(0, i.jsx)(t.p, { children: "Sendbird | June 2022" }),
+						"\n",
+						(0, i.jsxs)(t.p, {
+							children: [
+								(0, i.jsx)(t.img, {
+									src: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white",
+									alt: "Markdown",
+								}),
+								" ",
+								(0, i.jsx)(t.img, {
+									src: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white",
+									alt: "VSCode",
+								}),
+								" ",
+								(0, i.jsx)(t.img, {
+									src: "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
+									alt: "GitHub",
+								}),
+							],
+						}),
+						"\n",
+						(0, i.jsx)(t.h2, {
+							id: "project-overview",
+							children: "Project overview",
+						}),
+						"\n",
+						(0, i.jsx)(t.p, {
+							children:
+								"As a technical writer at Sendbird, a leading B2B chat platform, I maintained and improved the Chat SDK documentation to support developers integrating chat features across multiple platforms.",
+						}),
+						"\n",
+						(0, i.jsx)(s.A, {
+							url: "https://sendbird.com/docs/chat/v4/android/channel/retrieving-channels/retrieve-a-list-of-channels",
+							children: (0, i.jsx)(t.p, { children: "View Project \u2192" }),
+						}),
+						"\n",
+						(0, i.jsx)(t.p, {
+							children: (0, i.jsx)(t.em, {
+								children:
+									"Note: All content was written by me, except for the code samples.",
+							}),
+						}),
+						"\n",
+						(0, i.jsx)(t.h2, {
+							id: "scope-of-work",
+							children: "Scope of work",
+						}),
+						"\n",
+						(0, i.jsxs)(t.ul, {
+							children: [
+								"\n",
+								(0, i.jsx)(t.li, {
+									children:
+										"Rewrote an existing SDK documentation to clarify the different methods of resource retrieval based on its type.",
+								}),
+								"\n",
+								(0, i.jsx)(t.li, {
+									children:
+										"Partnered with engineers to improve code snippets to include a more helpful example.",
+								}),
+								"\n",
+								(0, i.jsx)(t.li, {
+									children:
+										"Incorporated feedback from internal teams and external users to address common questions and align the content with real-world use cases.",
+								}),
+								"\n",
+							],
+						}),
+						"\n",
+						(0, i.jsx)(t.h2, { id: "outcome", children: "Outcome" }),
+						"\n",
+						(0, i.jsxs)(t.ul, {
+							children: [
+								"\n",
+								(0, i.jsx)(t.li, {
+									children:
+										"Improved documentation clarity, reducing confusion around complex behavior.",
+								}),
+								"\n",
+								(0, i.jsx)(t.li, {
+									children:
+										"Contributed to more robust sample code, making implementation easier for developers.",
+								}),
+								"\n",
+							],
+						}),
+						"\n",
+						(0, i.jsx)(t.p, {
+							children: (0, i.jsx)(t.img, {
+								alt: "screenshot of Retrieve a List of Channels page",
+								src: n(3859).A + "",
+								width: "2460",
+								height: "1528",
+							}),
+						}),
+					],
+				});
+			}
+			function h(e = {}) {
+				const { wrapper: t } = { ...(0, r.R)(), ...e.components };
+				return t
+					? (0, i.jsx)(t, { ...e, children: (0, i.jsx)(u, { ...e }) })
+					: u(e);
+			}
+		},
+		8453: (e, t, n) => {
+			n.d(t, { R: () => s, x: () => d });
+			var o = n(6540);
+			const i = {},
+				r = o.createContext(i);
+			function s(e) {
+				const t = o.useContext(r);
+				return o.useMemo(
+					function () {
+						return "function" == typeof e ? e(t) : { ...t, ...e };
+					},
+					[t, e]
+				);
+			}
+			function d(e) {
+				let t;
+				return (
+					(t = e.disableParentContext
+						? "function" == typeof e.components
+							? e.components(i)
+							: e.components || i
+						: s(e.components)),
+					o.createElement(r.Provider, { value: t }, e.children)
+				);
+			}
+		},
+	},
+]);
