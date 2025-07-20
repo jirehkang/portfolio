@@ -11,8 +11,8 @@ export default function ContactSection() {
 				</p>
 				<p>I'd love to hear from you!</p>
 				<p>
-					Learn more <a href="/writing-portfolio/about">about me</a>, or reach
-					me via <a href="mailto:jireh.k.kang@gmail.com">email</a> or{" "}
+					Learn more <a href="/portfolio/about">about me</a>, or reach me via{" "}
+					<a href="mailto:jireh.k.kang@gmail.com">email</a> or{" "}
 					<a href="https://www.linkedin.com/in/jirehkang/">LinkedIn.</a>
 				</p>
 			</section>

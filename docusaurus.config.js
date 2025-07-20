@@ -18,12 +18,12 @@ const config = {
 	url: "https://jirehkang.github.io",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/writing-portfolio/",
+	baseUrl: "/portfolio/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "jirehkang", // Usually your GitHub org/user name.
-	projectName: "writing-portfolio", // Usually your repo name.
+	projectName: "portfolio", // Usually your repo name.
 	trailingSlash: false,
 	deploymentBranch: "gh-pages",
 	onBrokenLinks: "throw",
@@ -94,7 +94,7 @@ const config = {
 					},
 					// { to: "/blog", label: "Blog", position: "left" },
 					{
-						href: "https://github.com/jirehkang/writing-portfolio",
+						href: "https://github.com/jirehkang/portfolio",
 						label: "GitHub",
 						position: "right",
 					},
@@ -138,7 +138,7 @@ const config = {
 				// 			},
 				// 			{
 				// 				label: "GitHub",
-				// 				href: "https://github.com/jirehkang/writing-portfolio",
+				// 				href: "https://github.com/jirehkang/portfolio",
 				// 			},
 				// 		],
 				// 	},
