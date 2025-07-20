@@ -8,19 +8,13 @@ export default function ProjectsSection() {
 				<h2>Select writing projects</h2>
 			</section>
 			<section className={styles.cardContainer}>
-				<a
-					className={styles.card}
-					href="/writing-portfolio/projects/api-reference"
-				>
+				<a className={styles.card} href="/portfolio/projects/api-reference">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>API reference</h2>
 						<p>Sendbird </p>
 					</div>
 				</a>
-				<a
-					className={styles.card}
-					href="/writing-portfolio/projects/sdk-documentation"
-				>
+				<a className={styles.card} href="/portfolio/projects/sdk-documentation">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>SDK documentation</h2>
 						<p>Sendbird </p>
@@ -28,17 +22,14 @@ export default function ProjectsSection() {
 				</a>
 				<a
 					className={styles.card}
-					href="/writing-portfolio/projects/knowledge-base-article"
+					href="/portfolio/projects/knowledge-base-article"
 				>
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Knowledge base article</h2>
 						<p>Sendbird </p>
 					</div>
 				</a>
-				<a
-					className={styles.card}
-					href="/writing-portfolio/projects/concept-explainer"
-				>
+				<a className={styles.card} href="/portfolio/projects/concept-explainer">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Concept explainer</h2>
 						<p>Codecademy </p>
@@ -46,17 +37,14 @@ export default function ProjectsSection() {
 				</a>
 				<a
 					className={styles.card}
-					href="/writing-portfolio/projects/method-terminology"
+					href="/portfolio/projects/method-terminology"
 				>
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Method terminology</h2>
 						<p>Codecademy </p>
 					</div>
 				</a>
-				<a
-					className={styles.card}
-					href="/writing-portfolio/projects/ux-writing"
-				>
+				<a className={styles.card} href="/portfolio/projects/ux-writing">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>UX writing</h2>
 						<p>Kim & Chang </p>
