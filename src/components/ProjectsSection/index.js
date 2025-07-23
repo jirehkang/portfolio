@@ -29,6 +29,18 @@ export default function ProjectsSection() {
 						<p>Sendbird </p>
 					</div>
 				</a>
+				<a className={styles.card} href="/portfolio/projects/ux-writing">
+					<div className={styles.overlay}>
+						<h2 className={styles.cardTitle}>UX writing</h2>
+						<p>Sendbird </p>
+					</div>
+				</a>
+				<a className={styles.card} href="/portfolio/projects/web-copywriting">
+					<div className={styles.overlay}>
+						<h2 className={styles.cardTitle}>Web copywriting</h2>
+						<p>Kim & Chang </p>
+					</div>
+				</a>
 				<a className={styles.card} href="/portfolio/projects/concept-explainer">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Concept explainer</h2>
@@ -42,12 +54,6 @@ export default function ProjectsSection() {
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Method terminology</h2>
 						<p>Codecademy </p>
-					</div>
-				</a>
-				<a className={styles.card} href="/portfolio/projects/ux-writing">
-					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>UX writing</h2>
-						<p>Kim & Chang </p>
 					</div>
 				</a>
 			</section>
