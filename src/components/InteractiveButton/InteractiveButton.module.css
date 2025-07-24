@@ -3,7 +3,7 @@
     /* linear-gradient(to bottom right, #EF4765, #FF9A5A); */
     linear-gradient(to bottom right, rgb(47, 130 , 133), rgb(44, 233, 230));
   border: 0;
-  margin-bottom: 20px;
+  margin: 10px 0 30px 0 ;
   border-radius: 12px;
   color: hsl(0, 0%, 100%);
   cursor: pointer;

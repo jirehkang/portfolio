@@ -27,7 +27,7 @@ export default function MyReactPage() {
 					<p>
 						Outside of work, you'll find me sketching on my iPad (including the
 						basket of favorite things featured here), trying out new recipes in
-						the kitchen, or obsessively keeping up a 3+ year Duolingo streak.
+						the kitchen, or obsessively keeping up a 4+ year Duolingo streak.
 					</p>
 					<p>
 						Feel free to reach out via{" "}
