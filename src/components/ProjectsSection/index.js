@@ -35,9 +35,12 @@ export default function ProjectsSection() {
 						<p>Sendbird </p>
 					</div>
 				</a>
-				<a className={styles.card} href="/portfolio/projects/web-copywriting">
+				<a
+					className={styles.card}
+					href="/portfolio/projects/website-content-writing"
+				>
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>Web copywriting</h2>
+						<h2 className={styles.cardTitle}>Website content writing</h2>
 						<p>Kim & Chang </p>
 					</div>
 				</a>
