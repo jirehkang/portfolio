@@ -7,15 +7,17 @@ export default function IntroSection() {
 		<div className={styles.introContainer}>
 			<section className={styles.introSection}>
 				<div className={styles.introTextContainer}>
-					<p className={styles.jobTitle}>Technical writer</p>
+					<p className={styles.jobTitle}>
+						Technical content writer and strategist
+					</p>
 				</div>
 				<div className={styles.introTextContainer}>
 					<h1 className={styles.myName}>Jireh Kang</h1>
 				</div>
 				<div className={styles.descriptionContainer}>
-					<p>I craft user-friendly content,</p>
-					<p>enhance docs UX,</p>
-					<p>and optimize writing workflows.</p>
+					<p>I make complex ideas clear,</p>
+					<p>content purposeful,</p>
+					<p>and experiences user-centered.</p>
 				</div>
 				<div className={styles.scrollIcon}>
 					<ScrollIcon />

@@ -17,28 +17,21 @@
   border-radius: 16px;
 }
 
-/*
-.introSection {
-  width: clamp(5rem, 3vw, 8rem);
-}
-*/
-
 .introTextContainer {
   display: flex;
   flex-direction: row;
-  gap: 1rem;         /* space between the elements */
   justify-content: start; 
   align-items: baseline; 
   margin: 0 
 }
 
 .myName {
-  font-size: clamp(3.2rem, 10vw, 11rem);
-  margin: 0;
+  font-size: clamp(3rem, 10vw, 11rem);
+  margin: 10px 0 15px 0;
 }
 
 .jobTitle {
-  font-size: clamp(1.5rem, 3.5vw, 4rem);
+  font-size: clamp(0.8rem, 3.5vw, 2rem);
   font-weight: 400;
   margin: 0;
 }
@@ -52,7 +45,7 @@
 }
 
 .descriptionContainer p {
-  font-size: clamp(0.9rem, 2.5vw, 1.4rem);
+  font-size: clamp(0.8rem, 2.5vw, 1.4rem);
   margin: 0; 
 }
 
