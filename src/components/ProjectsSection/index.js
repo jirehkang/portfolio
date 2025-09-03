@@ -10,13 +10,13 @@ export default function ProjectsSection() {
 			<section className={styles.cardContainer}>
 				<a className={styles.card} href="/portfolio/projects/api-reference">
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>API reference</h2>
+						<h2 className={styles.cardTitle}>API Reference</h2>
 						<p>Sendbird </p>
 					</div>
 				</a>
 				<a className={styles.card} href="/portfolio/projects/sdk-documentation">
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>SDK documentation</h2>
+						<h2 className={styles.cardTitle}>SDK Documentation</h2>
 						<p>Sendbird </p>
 					</div>
 				</a>
@@ -25,13 +25,7 @@ export default function ProjectsSection() {
 					href="/portfolio/projects/knowledge-base-article"
 				>
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>Knowledge base article</h2>
-						<p>Sendbird </p>
-					</div>
-				</a>
-				<a className={styles.card} href="/portfolio/projects/ux-writing">
-					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>UX writing</h2>
+						<h2 className={styles.cardTitle}>Knowledge Base Article</h2>
 						<p>Sendbird </p>
 					</div>
 				</a>
@@ -40,24 +34,29 @@ export default function ProjectsSection() {
 					href="/portfolio/projects/website-content-writing"
 				>
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>Website content writing</h2>
+						<h2 className={styles.cardTitle}>Website Content Writing</h2>
 						<p>Kim & Chang </p>
 					</div>
 				</a>
 				<a className={styles.card} href="/portfolio/projects/concept-explainer">
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>Concept explainer</h2>
+						<h2 className={styles.cardTitle}>Concept Explainer</h2>
 						<p>Codecademy </p>
 					</div>
 				</a>
 				<a
 					className={styles.card}
-					href="/portfolio/projects/method-terminology"
+					href="/portfolio/projects/positioning-generator"
 				>
 					<div className={styles.overlay}>
-						<h2 className={styles.cardTitle}>Method terminology</h2>
+						<h2 className={styles.cardTitle}>Positioning Generator</h2>
 						<p>Codecademy </p>
 					</div>
+				</a>
+			</section>
+			<section className={styles.viewAllProjects}>
+				<a href="/portfolio/projects/category/writings">
+					<button>View All Projects →</button>
 				</a>
 			</section>
 		</div>

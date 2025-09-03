@@ -4,5 +4,6 @@
 	"link": {
 		"type": "generated-index",
 		"description": "A selection of writing projects, ranging from technical documentation to UX and editorial content."
-	}
+	},
+	"collapsed": false
 }
