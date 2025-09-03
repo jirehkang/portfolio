@@ -1,0 +1,54 @@
+---
+id: positioning-generator
+title: Positioning Generator
+slug: /positioning-generator
+sidebar_label: "Positioning Generator"
+sidebar_position: 1
+---
+
+import InteractiveButton from "@site/src/components/InteractiveButton";
+
+# Positioning Generator
+
+Positioning Generator is a lightweight app that helps uncover your product's positioning statement, using AI-generated content as a starting point.
+
+I built this as a side project to combine my background in technical writing with [my interest in product marketing](/blog/why-i-built-a-positioning-generator). It also gave me the chance to experiment with prompt engineering, UI flow design, and workflow automation.
+
+<InteractiveButton url="https://positioning-generator.streamlit.app/">
+	Launch the app →
+</InteractiveButton>
+
+*Note: The app goes to sleep after 12 hours of inactivity. If that happens, just click the **Yes, get this back up!** button and it'll be ready in a moment.*  
+
+## How It Works
+
+1.	**Describe your product**: Start by writing a short description in your own words.
+2.	**Generate product insights**: With one click, the app produces an overview of your product's category, competitors, target persona, and differentiators. You can edit these for accuracy and clarity.
+3.	**Generate positioning statement**: Once you're happy with the inputs, the app creates a concise, polished positioning statement.
+
+Watch the app in action below. 
+
+<iframe
+  src="https://www.loom.com/embed/c6466421a1d34e2db57043741a08f108"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+  style={{ width: "100%", height: "400px", maxWidth: "700px", margin: "2rem 0" }}
+  title="Positioning Generator Demo"
+/>
+## Behind the Scenes
+
+- Built with Python + Streamlit  
+- Powered by the OpenAI SDK for content generation
+- Designed for non-developers, with editable outputs and an iterative workflow
+
+## What's Next
+
+The app is currently in beta, and I'm continuing to refine it. Upcoming improvements include:
+
+- Smarter validation and clearer success messaging
+- Enhanced output quality with more nuanced prompts
+- A cleaner, more polished design
+
+
