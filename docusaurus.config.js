@@ -48,8 +48,7 @@ const config = {
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 				},
-				blog: false,
-				/*	{
+				blog: {
 					showReadingTime: true,
 					feedOptions: {
 						type: ["rss", "atom"],
@@ -59,7 +58,7 @@ const config = {
 					onInlineTags: "warn",
 					onInlineAuthors: "warn",
 					onUntruncatedBlogPosts: "warn",
-				}, */
+				},
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
@@ -86,11 +85,15 @@ const config = {
 						label: "Projects",
 					},
 					{
+						to: "/blog",
+						label: "Blog",
+						position: "left",
+					},
+					{
 						to: "/about",
 						position: "left",
 						label: "About",
 					},
-					// { to: "/blog", label: "Blog", position: "left" },
 					{
 						href: "https://github.com/jirehkang/portfolio",
 						label: "GitHub",

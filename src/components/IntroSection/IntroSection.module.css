@@ -26,7 +26,7 @@
 }
 
 .myName {
-  font-size: clamp(3rem, 10vw, 11rem);
+  font-size: clamp(3rem, 10vw, 9.5rem);
   margin: 10px 0 15px 0;
 }
 
