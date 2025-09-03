@@ -50,7 +50,7 @@ export default function ProjectsSection() {
 				>
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>Positioning Generator</h2>
-						<p>Codecademy </p>
+						<p>Side Project </p>
 					</div>
 				</a>
 			</section>
