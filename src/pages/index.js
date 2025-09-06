@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<Layout
 			title={`${siteConfig.title}`}
-			description="Hello, welcome to Jireh's writing portfolio!"
+			description="Hello, welcome to Jireh's portfolio!"
 		>
 			<main>
 				<IntroSection />
